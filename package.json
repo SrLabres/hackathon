@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start:backend": "cd packages/backend && node app.js",
+    "start:backend": "cd packages/backend && nodemon server.js",
     "start:frontend": "cd packages/frontend && yarn dev"
   },
   "private": true,
@@ -12,9 +12,6 @@
     "packages/*"
   ],
   "devDependencies": {
-    "eslint": "^8.49.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.0",
-    "prettier": "^3.0.3"
+    
   }
 }
